@@ -34,8 +34,8 @@ public class RepositorioFuncionarioArray implements RepositorioFuncionario{
 
 	public void atualizar (Funcionario atual,Funcionario novo) {
 		for (int i = 0; i < array.length; i++) {
-			if (array[i] == velha) {
-				array[i] = nova;
+			if (array[i] == atual) {
+				array[i] = novo;
 			}
 		}
 	}

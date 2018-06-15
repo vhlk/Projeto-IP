@@ -34,8 +34,8 @@ public class RepositorioAlunoArray implements RepositorioAluno{
 
 	public void atualizar (Aluno atual, Aluno novo) {
 		for (int i = 0; i < array.length; i++) {
-			if (array[i] == velha) {
-				array[i] = nova;
+			if (array[i] == atual) {
+				array[i] = novo;
 			}
 		}
 	}
