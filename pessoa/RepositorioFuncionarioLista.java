@@ -1,7 +1,7 @@
 package pessoa;
 import pessoa.Funcionario;
 
-public class RepositorioFuncionarioLista {
+public class RepositorioFuncionarioLista implements RepositorioFuncionario{
 	private Funcionario nome;
 	private RepositorioFuncionarioLista proximo;
 	

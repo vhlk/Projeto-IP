@@ -1,7 +1,7 @@
 package pessoa;
 import pessoa.Aluno;
 
-public class RepositorioAlunoLista {
+public class RepositorioAlunoLista implements RepositorioAluno{
 	private Aluno nome;
 	private RepositorioAlunoLista proximo;
 	
